@@ -1,0 +1,10 @@
+INICIO 
+   LEER Dosis 
+   LEER concentración 
+   V = Dosis/ concentración 
+   SI V> 50 ENTONCES 
+      IMPRIMIR "PEDIR ATENCIÓN"
+   SINO 
+      IMPRIMIR "CONTINUAR"
+   FIN SI 
+ FIN 
