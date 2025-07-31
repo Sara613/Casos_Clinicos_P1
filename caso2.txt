@@ -1,0 +1,17 @@
+INICIO 
+   LEER M
+   i= 1
+   CONTADOR = 0
+   MIENTRAS i <= M 
+     LEER FC
+   SI FC < 60 o FC > 100 ENTONCES 
+      CONTADOR += 1
+   FIN SI 
+   i += 1
+   FIN MIENTRAS 
+   SI CONTADOR > 3 ENTONCES
+      IMPRIMIR "POTENCIAL ARRITMIA"
+   SI NO 
+      IMPRIMIR "RÍTMICO"
+   FIN SI 
+FIN
